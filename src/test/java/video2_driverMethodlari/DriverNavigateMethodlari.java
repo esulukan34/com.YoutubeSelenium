@@ -39,7 +39,7 @@ public class DriverNavigateMethodlari {
         // 1- E - driver.manage().window().maximize(); --> icinde oldugumuz sayfa maximize yapar
         // 1- F - driver.manage().window().fullscreen(); --> icinde oldugumuz sayfa fullscreen yapar
 
-        // Farklari gormek icin bu method'lari kullanip, baslangic noktalrini ve boyutlarini yazdiralim
+        // Farklari gormek icin bu method'lari kullanip, baslangic noktalarini ve boyutlarini yazdiralim
         driver.manage().window().maximize();
         System.out.println("maximize konumu : " + driver.manage().window().getPosition()); // (0, 25)
         System.out.println("maximize boyut : " + driver.manage().window().getSize()); // (1440, 813)
